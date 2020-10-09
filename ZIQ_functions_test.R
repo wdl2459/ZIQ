@@ -263,3 +263,5 @@ proposed.smooth(y=y, Xl=cbind(x1,x2), Xq=cbind(x1,x2), xl=X, xq=X, taus=seq(0.1,
 # estimate average quantile effect 
 AQE(y=y, Xl=cbind(x1,x2), Xq=cbind(x1,x2), indexl=1, indexq=1, value1=0, value2=1)
 AQE(y=y, Xl=cbind(x1,x2), Xq=cbind(x1,x2), indexl=1, indexq=1, value1=0, value2=1, method="smooth")
+
+
